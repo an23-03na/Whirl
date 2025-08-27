@@ -6,6 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
+    
 }
 
 .hero__content {
