@@ -1,0 +1,30 @@
+.header {
+    margin-bottom:clamp(1.25rem, 0.5357rem + 3.5714vw, 3.75rem);
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header__left-box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__right-box {
+    display: none;
+    padding: 25px 0;
+}
+
+.button-in {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #0070a0;
+    padding-right: 20px;
+}

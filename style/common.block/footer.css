@@ -1,0 +1,137 @@
+.footer {}
+
+.footer__container {
+    padding-block:clamp(1.25rem, 0.1786rem + 5.3571vw, 5rem);
+    padding-inline:clamp(0.9375rem, 0.3125rem + 3.125vw, 3.125rem);
+}
+
+.footer__content {
+    display: flex;
+    flex-basis: 40%;
+    justify-content: space-between;
+    gap: 80px;
+    margin-bottom: 70px;
+}
+
+.footer__logo {
+    margin-bottom: 30px;
+}
+
+.footer__box1 {}
+
+.footer__box1-span {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+}
+
+.footer__link {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 151%;
+    letter-spacing: 0.02em;
+    color: #0070a0;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__links {
+    flex-basis: 550px;
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.footer__box2 {}
+
+.footer__box-title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+}
+
+.footer__list {}
+
+.footer__list-item {
+    padding: 5px 0;
+}
+
+.footer__item-link {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    color: #626a72;
+    text-decoration: none;
+}
+
+.footer__item-link:hover {
+    text-decoration: underline;
+}
+
+.footer__box3 {}
+
+.footer__box4 {}
+
+.footer__box4-text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+}
+
+.footer__form {}
+
+.footer__form-box {
+    position: relative;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid #626a729c;
+    padding: 10px;
+}
+
+.footer__form-icon {
+    position: absolute;
+    right: 20px;
+    top: 30%;
+}
+
+.footer__end {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer__end-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 151%;
+    letter-spacing: 0.02em;
+    color: #1f1f1f;
+}
+
+.footer__end-list {
+    display: flex;
+    gap: 20px;
+}
+
+.footer__end-list-item {}
+
+.footer__end-item-icon {}

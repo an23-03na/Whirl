@@ -1,0 +1,37 @@
+.about {
+    padding-block:clamp(1.25rem, 0.1786rem + 5.3571vw, 5rem);
+}
+
+.about__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1 1 30%;
+    gap: 50px;
+
+}
+
+.about__title {}
+
+.about__list {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    align-items: end;
+    gap: 20px;
+}
+
+.about__list-item {
+    margin-top: 20px;
+}
+
+.about__list-item1 {
+}
+
+.about__item-title {}
+
+.about__item-text {
+    font-size: 15px;
+}
+
+.about__item-icon {}

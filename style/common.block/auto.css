@@ -1,0 +1,42 @@
+.auto {}
+
+.auto__container {
+    padding: clamp(2.5rem, 1.4286rem + 5.3571vw, 6.25rem) 15px;
+}
+
+.auto__title {}
+
+.auto__text {
+    font-size: clamp(1rem, 0.9643rem + 0.1786vw, 1.125rem);
+    max-width: 640px;
+    line-height: 25px;
+    margin-bottom: 60px;
+}
+
+.auto__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+}
+
+.auto__list-item {
+    padding: 10px;
+}
+.auto__item-icon {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.auto__item-img {}
+
+.auto__item-title {
+    font-size: 23px;
+    line-height: 125%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+}
+
+.auto__item-text {
+    font-size: 15px;
+}
+
+.auto__iet-icon {}

@@ -1,0 +1,39 @@
+.get {}
+
+.get__container {
+    background: var(--aqua-color);
+    margin-block:clamp(1.875rem, 0.9821rem + 4.4643vw, 5rem);
+    padding:clamp(1.25rem, 0.4643rem + 3.9286vw, 4rem);
+}
+
+.get__title {
+    margin-bottom: 10px;
+}
+
+.get__text {
+    color: #1f1f1f;
+    margin-bottom: 30px;
+}
+
+.get__button {
+    margin-bottom: 20px;
+}
+
+.get__div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.get__box {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    color: #626a72;
+}
+
+.get__box-icon {
+    width: 15px;
+    height: 10px;
+}

@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/inter_regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fraunces";
+  src: url(../fonts/fraunces_regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --yellow-color:#FAEA73;
+  --pink-color:#F7CEDC;
+  --aqua-color:#CCEFF6;
+  --blue-color:#0070a0;
+  --font-family: "Inter", sans-serif;
+  --second-family: "Fraunces", sans-serif;
+}
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family:var(--font-family);
+}
+.scroll-lock {
+  overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
